@@ -1,12 +1,13 @@
 
 
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 function About() {
   return (
     <div>
-      <h1>This is a React Router app!</h1>
-      <h2>🚀 nice!</h2>
+      <h1>this is a layout of the about page!</h1>
+      <Outlet />
     </div>
   );
 }
